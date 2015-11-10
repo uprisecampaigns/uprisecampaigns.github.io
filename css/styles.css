@@ -15,6 +15,11 @@ html,body {
     }
 }
 
+h2 {
+  font-size:40px;
+}
+.highlight { background-color:#bf1516; }
+
 a {
     color:#999;
 }
@@ -28,11 +33,11 @@ a:hover {
 }
 
 .btn-danger {
-    background-color:#f44d3c;
+    background-color:#bf1516;
 }
 
 .text-danger, a.text-danger {
-    color:#f44d3c;
+    color:#bf1516;
 }
 
 .btn-huge {
@@ -60,16 +65,16 @@ a:hover {
 
 .navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
     padding: 14px;
-    color:#f44d3c;
+    color:#ed5e4e;
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-	background-color:#f44d3c;
+	background-color:#ed5e4e;
 	color:#333;
 }
 
 .navbar-trans li>a:hover {
-	background-color:#f44d3c;
+	background-color:#ed5e4e;
 	color:#fff;
 	opacity:0.5;
 }
@@ -152,7 +157,7 @@ section {
 }
   
 #section2 {
-	background-color: #fff;
+	background-color: #c7e8e7;
 }
 
 #section5 {
@@ -160,14 +165,14 @@ section {
 }
 
 #section3 {
-	background-color: #222;
-	color:#eee;
+	background-color: #0a2a35;
+	color:#fefefe;
 	font-family: 'Bitter', serif;
   font-size: 16px;
 }
 
 #section6 {
-    background-color: #eee;
+  background-color: #eee;
 	min-height:130px;
 	padding-top:40px;
 	padding-bottom:40px;
