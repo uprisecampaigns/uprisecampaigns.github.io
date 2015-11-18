@@ -50,8 +50,12 @@
           <div class="tweet-section">
               <script>
                 jQuery(document).ready(function($){
+                    console.log("getting tweet...");
                   $.getJSON("https://www.api.tweecool.com/?screenname=UpRiseCampaigns&count=1", function(data) {
+                    console.log("got tweet data:");
+                    console.log(data);
                     var decoded = decodeURI(data.tweets[0].text);
+                    console.log("decoded first tweet: " + decoded);
                     $("#tweets").text(decoded);
                   });
                 });
