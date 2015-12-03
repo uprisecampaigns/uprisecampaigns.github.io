@@ -155,8 +155,8 @@ section {
 }
   
 #section4 {
-	background-color: #222;
-	color:#ccc;
+	background-color: #444;
+	color:#ffffff;
   font-size: 18px;
 }
 
@@ -220,8 +220,8 @@ footer .nav>li>a:hover {
   border-radius: 0px;
 
   /* Text */
-  font: normal 12px/18px Merriweather, sans-serif;
-  color: #333;
+  font: Merriweather, sans-serif;
+  color: #ffffff;
   white-space: nowrap;
 }
 
